@@ -15,10 +15,10 @@ class Container{
   }
 
   draw(){
-    ctx.fillStyle = "grey"
+    ctx.fillStyle = "lightblue"
     ctx.beginPath()
     ctx.rect(this.x, this.y, this.width, this.length)
-    ctx.fillStyle = "grey"
+    ctx.fillStyle = "lightblue"
     ctx.fill()
   }
 
